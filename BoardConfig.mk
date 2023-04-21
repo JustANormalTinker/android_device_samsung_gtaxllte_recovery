@@ -42,8 +42,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x2CF3FB000 # 0x2CF400000 - 20480 (footer)
 BOARD_CACHEIMAGE_PARTITION_SIZE    := 0x00C800000
 BOARD_FLASH_BLOCK_SIZE := 131072
 
-#TARGET_PREBUILT_KERNEL := device/samsung/gtaxllte/Image
-#TARGET_PREBUILT_DTB := device/samsung/gtaxllte/dtb.img
+TARGET_PREBUILT_KERNEL := device/samsung/gtaxllte/Image
+TARGET_PREBUILT_DTB := device/samsung/gtaxllte/dtb.img
 
 BOARD_KERNEL_SEPARATED_DT := true
 
